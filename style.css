@@ -4,4 +4,24 @@ h1 {
 
 .container {
     display: flex;
+    flex: 1 1 50%;
+}
+
+.item {
+    display: flex;
+    
+    flex: 1 1 50%;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+footer {
+    background-color: cornsilk;
+    display: flex;
+    padding: 20px;
+    margin: 0;
+    justify-content: center;
 }
