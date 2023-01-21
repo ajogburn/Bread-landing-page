@@ -21,7 +21,17 @@ img {
 footer {
     background-color: cornsilk;
     display: flex;
-    padding: 20px;
+    padding: 20px;  
     margin: 0;
     justify-content: center;
+}
+
+header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 1rem;
+    flex: 1 1 100%;
+    align-items: center;
 }
