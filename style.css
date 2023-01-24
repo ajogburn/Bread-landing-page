@@ -2,10 +2,9 @@
 
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+   
     background-color: #242424;
-}
+}   
 
 li, a, button {
     font-family: "Montserrat", sans-serif;
@@ -17,32 +16,14 @@ li, a, button {
 
 body {
     color: whitesmoke;
-    display: flex;
-    flex-direction: column;
     margin: 2em;
 }
 
-h1 {
-    
-}
-
-.container {
-   
- 
-}
-
-.item {
- 
-
-}
-
-.item-2 {
-  
-}
 
 img {
     max-width: 400px;
     max-height: 400px;
+    border-radius: 25%;
 }
 
 footer {
@@ -100,4 +81,16 @@ button {
 
 button:hover {
     background-color: rgba(0, 136, 169, 0.8) ;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    flex: 1;
+    gap: 2em;
+}
+
+h2 {
+    margin-top: 120px;
 }
