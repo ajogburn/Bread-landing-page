@@ -15,19 +15,29 @@ li, a, button {
     text-decoration: none;
 }
 
+body {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
+
 h1 {
-    background-color: antiquewhite;
+    
 }
 
 .container {
-    display: flex;
-    flex: 1 1 50%;
+   
+ 
 }
 
 .item {
-    display: flex;
-    
-    flex: 1 1 50%;
+ 
+
+}
+
+.item-2 {
+  
 }
 
 img {
